@@ -6,4 +6,4 @@ service:
 before_install:
   - docker build -t gurugudi/docker-react -f Dockerfile.dev .
 script:
-  - docker run -e CI=true USERNAME/docker-react npm run test
+  - docker run -e CI=true gurugudi/docker-react npm run test -- -- coverage

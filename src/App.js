@@ -8,7 +8,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
-          Using Docker Compose! 
+         Using full CI/CD.
+         Changed on feature branch.
         </p>
         <a
           className="App-link"
